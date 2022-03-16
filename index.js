@@ -85,9 +85,7 @@ function isGameOver() {
     }
   }
 
-  if (gameOver) {
-    ctx.fillStyle = "white";
-    ctx.font = "50px Verdana";
+ 
 
     if (gameOver) {
       ctx.fillStyle = "white";
@@ -103,8 +101,7 @@ function isGameOver() {
       ctx.fillText("Game Over!", canvas.width / 6.5, canvas.height / 2);
     }
 
-    ctx.fillText("Game Over!", canvas.width / 6.5, canvas.height / 2);
-  }
+  
 
   return gameOver;
 }
